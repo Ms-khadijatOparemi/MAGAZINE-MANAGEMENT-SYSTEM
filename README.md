@@ -32,6 +32,7 @@ The aim of the project to is to build an online magazine management system where
 #Define Subscriber class which represents the User's unique identifiers
 
 class Subscriber:
+
      def __init__(self, name, email, birth_year, password, subscription_type, category):
         self.name = name
         self.email = email
